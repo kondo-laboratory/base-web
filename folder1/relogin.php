@@ -1,4 +1,9 @@
 <?php
+echo "<html><head></head>";
+echo "<body>";
+echo "<center><table>";
+
+
 $temp_code = $_GET["code"];
 $client_secret = "293a6e99180c01a33a638d4393995391a7e87f7d";
 echo "<h1>リダイレクトページ</h1><br><br>";
@@ -78,5 +83,8 @@ curl_close($ch);
 
 
 //変更コミット
+
+echo "</table></center>";
+echo "</body>";
 
 ?>
