@@ -4,6 +4,8 @@ $client_secret = "293a6e99180c01a33a638d4393995391a7e87f7d";
 echo "<h1>リダイレクトページ</h1><br><br>";
 
 
+
+//アクセストークン取得用パラメータ設定
 $array = array(
 	"client_id" => "d2f2698fe04895f91985" ,
 	"client_secret" => $client_secret,
