@@ -20,6 +20,8 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $json);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_URL, 'https://github.com/login/oauth/access_token');
 $result=curl_exec($ch);
+//アクセストークン取得できたかなぁ・・・・
+
 
 
 
